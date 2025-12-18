@@ -1,3 +1,4 @@
 # Ignore all .pkl files
 *.pkl
 database_images
+.env
