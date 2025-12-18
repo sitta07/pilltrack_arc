@@ -1,0 +1,44 @@
+[
+    {
+        "timestamp": "2025-12-18 11:00:44",
+        "event": "PRODUCTION_PUSH",
+        "drug": "-",
+        "images": 0,
+        "details": "Sync 13 classes to S3"
+    },
+    {
+        "timestamp": "2025-12-18 11:00:21",
+        "event": "ADD_DATA (New Pack)",
+        "drug": "yeehun",
+        "images": 2,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 10:59:34",
+        "event": "PRODUCTION_PUSH",
+        "drug": "-",
+        "images": 0,
+        "details": "Sync 12 classes to S3"
+    },
+    {
+        "timestamp": "2025-12-18 10:59:01",
+        "event": "ADD_DATA (Enhance Existing)",
+        "drug": "yanhee",
+        "images": 2,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 10:58:37",
+        "event": "PRODUCTION_PUSH",
+        "drug": "-",
+        "images": 0,
+        "details": "Sync 12 classes to S3"
+    },
+    {
+        "timestamp": "2025-12-18 10:58:28",
+        "event": "ADD_DATA (Enhance Existing)",
+        "drug": "yanhee",
+        "images": 2,
+        "details": "-"
+    }
+]

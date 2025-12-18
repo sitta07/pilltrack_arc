@@ -1,4 +1,5 @@
 # Ignore all .pkl files
 *.pkl
-database_images
+database_images/
 .env
+__pycache__/
