@@ -1,19 +1,9 @@
 {
     "drugs": [
-        "alzum_10",
-        "berlontin_300",
-        "brillior",
-        "fah",
-        "imnib_400",
-        "norflex",
-        "paracetamol",
+        "brillior_50mg",
         "reminyl_8mg",
-        "requip",
-        "senolax",
-        "uroflow",
-        "yanhee",
-        "yeehun"
+        "uroflow"
     ],
-    "updated_at": "2025-12-18 11:00:31",
-    "total": 13
+    "updated_at": "2025-12-18 14:19:32",
+    "total": 3
 }
