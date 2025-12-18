@@ -1,5 +1,145 @@
 [
     {
+        "timestamp": "2025-12-18 16:05:48",
+        "event": "INGESTION",
+        "drug": "7 drugs",
+        "images": 42,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 15:36:44",
+        "event": "INGESTION",
+        "drug": "7 drugs",
+        "images": 42,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 15:26:45",
+        "event": "INGESTION",
+        "drug": "7 drugs",
+        "images": 42,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 15:24:58",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_152322.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 15:08:18",
+        "event": "INGESTION",
+        "drug": "3 drugs",
+        "images": 37,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 15:07:20",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 15:06:01",
+        "event": "INGESTION",
+        "drug": "3 classes",
+        "images": 37,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 15:04:56",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 15:01:37",
+        "event": "INGESTION",
+        "drug": "3 drugs",
+        "images": 37,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 14:59:32",
+        "event": "INGESTION",
+        "drug": "3 drugs",
+        "images": 37,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 14:58:34",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:55:08",
+        "event": "INGESTION",
+        "drug": "3 drugs",
+        "images": 37,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 14:54:06",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:53:12",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:50:57",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Extracted to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:47:12",
+        "event": "INGESTION",
+        "drug": "3 drugs processed",
+        "images": 3,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 14:45:37",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_144456.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:40:58",
+        "event": "INGESTION",
+        "drug": "3 drugs processed",
+        "images": 3,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-18 14:39:56",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_143214.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-18 14:36:49",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251218_143214.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
         "timestamp": "2025-12-18 14:11:57",
         "event": "BATCH_ZIP",
         "drug": "3 drugs",

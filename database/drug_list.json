@@ -1,9 +1,13 @@
 {
     "drugs": [
-        "brillior_50mg",
-        "reminyl_8mg",
+        "civoxin_t_250",
+        "covir_400mg",
+        "flotral",
+        "imnib_100",
+        "imnib_400",
+        "proquine_tablets",
         "uroflow"
     ],
-    "updated_at": "2025-12-18 14:19:32",
-    "total": 3
+    "updated_at": "2025-12-18 16:06:01",
+    "total": 7
 }

@@ -17,12 +17,45 @@ class DBManager:
         with open(path, 'wb') as f:
             pickle.dump(data, f)
 
+    # ✅ [NEW] ฟังก์ชันพระเอก: จัดการโครงสร้างข้อมูลแบบ Hybrid
+    @staticmethod
+    def insert_data(db, name, dino_vec, sift_des):
+        """
+        แทรกข้อมูลลง Database โดยอัตโนมัติ (จัดการ Schema ให้อัตโนมัติ)
+        Structure ใหม่: 
+        {
+            "Para_pack_1": {
+                "dino": [vec1, vec2, ...],
+                "sift": [des1, des2, ...]
+            }
+        }
+        """
+        # 1. ถ้ายังไม่มีชื่อนี้ ให้สร้างโครงสร้างรอ
+        if name not in db:
+            db[name] = {"dino": [], "sift": []}
+        
+        # 2. (Migration Support) เผื่อไปเจอไฟล์เก่าที่เป็น List ล้วน ให้แปลงร่างก่อน
+        if isinstance(db[name], list):
+            print(f"📦 Converting legacy format for {name}...")
+            db[name] = {"dino": db[name], "sift": []}
+
+        # 3. ยัดข้อมูลลงถัง
+        db[name]["dino"].append(dino_vec)
+        
+        # SIFT descriptors อาจเป็น None ได้ (ถ้าภาพไม่มีจุดเด่น)
+        if sift_des is not None:
+            db[name]["sift"].append(sift_des)
+
     @staticmethod
     def get_unique_drugs(db_dict):
-        """สกัดรายชื่อยาจากกุญแจใน pkl (Hardmode Logic)"""
+        """สกัดรายชื่อยาจากกุญแจใน pkl"""
         names = set()
         for k in db_dict.keys():
-            if "_pack" in k: names.add(k.split('_pack')[0])
+            # Logic ตัดคำว่า _pack ออก เพื่อให้ได้ชื่อยาเพียวๆ
+            if "_pack" in k: 
+                names.add(k.split('_pack')[0])
+            else:
+                names.add(k) # กรณีชื่อไม่มี _pack
         return sorted(list(names))
 
     @staticmethod
@@ -40,6 +73,10 @@ class DBManager:
     def add_log(event_type, drug_name="-", count=0, details="-"):
         """บันทึกประวัติการทำงาน (Audit Trail)"""
         log_path = "database/activity_log.json"
+        
+        # สร้างโฟลเดอร์ database ถ้ายังไม่มี
+        os.makedirs(os.path.dirname(log_path), exist_ok=True)
+        
         log_entry = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "event": event_type,
@@ -55,9 +92,9 @@ class DBManager:
                     logs = json.load(f)
             except: logs = []
         
-        logs.insert(0, log_entry) # เอาเหตุการณ์ล่าสุดไว้บนสุด
+        logs.insert(0, log_entry)
         with open(log_path, 'w', encoding='utf-8') as f:
-            json.dump(logs[:100], f, indent=4, ensure_ascii=False) # เก็บแค่ 100 รายการล่าสุด
+            json.dump(logs[:100], f, indent=4, ensure_ascii=False)
 
     @staticmethod
     def get_logs():

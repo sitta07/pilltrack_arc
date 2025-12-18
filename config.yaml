@@ -6,10 +6,10 @@ paths:
   models_folder: "models"
 
 artifacts:
-  pack_vec: "database/db_packs_dino.pkl"
+  pack_vec: "database/pill_fingerprints.pkl" 
   pack_col: "database/colors_packs.pkl"
   model: "models/seg_best_process.pt"
 
 settings:
   dino_size: 448
-  yolo_conf: 0.8
+  yolo_conf: 0.75
