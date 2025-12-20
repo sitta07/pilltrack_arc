@@ -13,7 +13,7 @@ class AIEngine:
         self.yolo = YOLO(model_path)
         
         # 2. DINOv2 Model
-        self.dino = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14').to(self.device).eval()
+        self.dino = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14').to(self.device).eval()
         self.dino_size = dino_size 
         
         # 3. SIFT Detector (เพิ่มใหม่)

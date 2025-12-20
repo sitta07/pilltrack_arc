@@ -1,13 +1,12 @@
 {
     "drugs": [
         "civoxin_t_250",
-        "covir_400mg",
         "flotral",
+        "imnib400",
         "imnib_100",
-        "imnib_400",
-        "proquine_tablets",
+        "proquine",
         "uroflow"
     ],
-    "updated_at": "2025-12-18 16:06:01",
-    "total": 7
+    "updated_at": "2025-12-20 14:38:01",
+    "total": 6
 }
