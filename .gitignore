@@ -1,8 +1,37 @@
-# Ignore all .pkl files
-*.pkl
-database_images/
-.env
+# --- 1. Python Basics ---
 __pycache__/
-*.jpg
-edge_data_inbox/
-temp_extract_area/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+
+# --- 2. Environment & Secret ---
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# --- 3. Mac & OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- 4. Project Data & Artifacts  ---
+data/
+database/
+database_images/
+models/
+
+!data/.gitkeep
+!models/.gitkeep
+
+# --- 5. IDE Settings ---
+.vscode/
+.idea/
+
+# --- 6. Testing & Mypy ---
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
