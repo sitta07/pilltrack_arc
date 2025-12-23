@@ -1,6 +1,6 @@
 # PillTrack: MLOps Producer Hub
 
-![Status](https://img.shields.io/badge/Status-Beta-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Beta-yellow?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![DataOps](https://img.shields.io/badge/DataOps-Enabled-darkslategray?style=for-the-badge)
 ![AWS S3](https://img.shields.io/badge/Storage-AWS%20S3-orange?style=for-the-badge&logo=amazon-s3&logoColor=white)
