@@ -11,5 +11,5 @@ artifacts:
   model: "models/seg_best_process.pt"
 
 settings:
-  dino_size: 448
+  dino_size: 336
   yolo_conf: 0.8

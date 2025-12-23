@@ -1,12 +1,25 @@
 {
     "drugs": [
-        "civoxin_t_250",
+        "alzime",
+        "bufenac",
+        "civoxin",
+        "decolgen",
+        "fah",
         "flotral",
-        "imnib400",
-        "imnib_100",
-        "proquine",
-        "uroflow"
+        "gluzolyte",
+        "hydroquin",
+        "maleate",
+        "mypara",
+        "noxa",
+        "orata",
+        "para30mg",
+        "para40mg",
+        "paracap",
+        "sara",
+        "turmeric",
+        "uroflow",
+        "yanhee"
     ],
-    "updated_at": "2025-12-20 14:38:01",
-    "total": 6
+    "updated_at": "2025-12-23 09:48:48",
+    "total": 19
 }

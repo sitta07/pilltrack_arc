@@ -1,5 +1,26 @@
 [
     {
+        "timestamp": "2025-12-22 13:46:01",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251222_133535.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
+        "timestamp": "2025-12-22 10:30:08",
+        "event": "INGESTION",
+        "drug": "10 drugs",
+        "images": 84,
+        "details": "-"
+    },
+    {
+        "timestamp": "2025-12-22 10:27:40",
+        "event": "EDGE_PULL",
+        "drug": "captured_20251222_102651.zip",
+        "images": 0,
+        "details": "Saved to edge_data_inbox"
+    },
+    {
         "timestamp": "2025-12-20 14:33:30",
         "event": "INGESTION",
         "drug": "6 drugs",
