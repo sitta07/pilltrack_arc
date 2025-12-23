@@ -16,3 +16,7 @@ python-dotenv
 PyYAML                     
 scikit-learn 
 seaborn
+
+#
+scikit-learn 
+plotly
